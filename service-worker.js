@@ -14,7 +14,6 @@ const FILES_TO_CACHE = [
   "./dist/tickets.bundle.js",
   "./dist/schedule.bundle.js"
 ];
-console.log('test')
 // Respond with cached resources
 self.addEventListener('fetch', function (e) {
   console.log('fetch request : ' + e.request.url)
